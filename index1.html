@@ -38,7 +38,8 @@
 
 </head>
 
-<body class="mCustomScrollbar _mCS_1" ondragstart='return false' onselectstart='return false' oncontextmenu='return false'>
+<body class="mCustomScrollbar _mCS_1" ondragstart='return false' onselectstart='return false' oncontextmenu='return false' onkeydown="return false;" onkeypress="return false;" onkeyup="return false;">
+    
     <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" tabindex="0">
         <div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px;" dir="ltr">
 
@@ -67,7 +68,7 @@
             <section id="left-side" class="" style="opacity: 1;">
 
                 <!-- Your logo -->
-                <p  class="brand-logo mCS_img_loaded" style="font-family:'D2'; font-size:120pt; font-weight:normal; text-align:center;">E</p>
+                <p class="brand-logo mCS_img_loaded" style="font-family:'D2'; font-size:120pt; font-weight:normal; text-align:center;">E</p>
 
                 <div class="content">
 
@@ -76,11 +77,16 @@
                     </h1>
 
                     <h2 class="text-intro animated-middle fadeInUp">
-                       Eronelit JGA EMPIRE | USKORO
+                        Eronelit JGA EMPIRE | USKORO
                         <br>EronelIT © 3D Vizuelna mapa celog univerzuma. <br>
                         Čovečanstvo spremi se! 'Sistemi sleću na Zemlju.'
                     </h2>
-
+                    <audio loop autoplay>
+                        <source src="js/F302392424.mp3" type="audio/mpeg" />
+                        <source src="js/F302392424.mp3" type="audio/mp3" />
+                        <source src="js/F302392424.mp3" type="audio/ogg" />
+                        Your browser dose not Support the audio!
+                    </audio>
                     <nav>
                         <ul>
                             <!---ae->
@@ -107,9 +113,6 @@
             <!-- END - Home/Left Part -->
             <!-- START - More Informations/Right Part -->
             <!-- /. Content -->
-
-
-
             </section>
             <!-- START - More Informations/Right Part -->
             <!-- Button Cross to close the More Informations/Right Part -->
@@ -162,7 +165,7 @@
             <script>
                 $("#getting-started")
                     // Year/Month/Day Hour:Minute:Second
-                    .countdown("2016/10/24 15:30:30", function(event) {
+                    .countdown("2016/10/24 15:30:30", function (event) {
                         $(this).text(
                             event.strftime('%D Dan/a %Hh %Mm %Ss')
                         );
