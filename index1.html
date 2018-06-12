@@ -1,0 +1,192 @@
+﻿<html lang="en-us" class=" js cssanimations">
+
+<head>
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <title>Eronelit</title>
+
+
+    <meta name="description" content="The description should optimally be between 150-160 characters.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="eronelit.com">
+   <link rel="stylesheet" href="https://eronelit.com/fonts/D3/D3.css" />
+    <!--<link rel="stylesheet" href="../fonts/D3/D3.css" />-->
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="/eronelico.png" />
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-retina-ipad.png">
+    <!-- Retina iPhone Touch Icon-->
+
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-retina-iphone.png">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-standard-ipad.png">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-standard-iphone.png">
+
+    <!-- ============== Resources style ============== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr runs quickly on page load to detect features -->
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body class="mCustomScrollbar _mCS_1" ondragstart='return false' onselectstart='return false' oncontextmenu='return false'>
+    <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" tabindex="0">
+        <div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px;" dir="ltr">
+
+            <!-- Page preloader -->
+            <div id="loading" class="" style="opacity: 0; display: none;">
+                <div id="preloader" class="" style="opacity: 0;">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <canvas id="dotty" width="807" height="785"></canvas>
+
+            <!-- Overlay and Star effect -->
+            <div class="global-overlay" style="opacity: 1; transform: translateX(100%);">
+                <div class="overlay skew-part">
+
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div>
+
+                </div>
+            </div>
+
+            <!-- START - Home/Left Part -->
+            <section id="left-side" class="" style="opacity: 1;">
+
+                <!-- Your logo -->
+                <p  class="brand-logo mCS_img_loaded" style="font-family:'D2'; font-size:120pt; font-weight:normal; text-align:center;">E</p>
+
+                <div class="content">
+
+                    <h1 class="text-intro animated-middle fadeInUp">
+                        space.eronelit.com
+                    </h1>
+
+                    <h2 class="text-intro animated-middle fadeInUp">
+                       Eronelit JGA EMPIRE | USKORO
+                        <br>EronelIT © 3D Vizuelna mapa celog univerzuma. <br>
+                        Čovečanstvo spremi se! 'Sistemi sleću na Zemlju.'
+                    </h2>
+
+                    <nav>
+                        <ul>
+                            <!---ae->
+                            <li>
+                                <a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro animated-middle fadeInUp">Više informacija</a>
+                            </li> -->
+
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <!-- Social icons -->
+                <div class="social-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+
+
+                </div>
+
+            </section>
+            <!-- END - Home/Left Part -->
+            <!-- START - More Informations/Right Part -->
+            <!-- /. Content -->
+
+
+
+            </section>
+            <!-- START - More Informations/Right Part -->
+            <!-- Button Cross to close the More Informations/Right Part -->
+            <button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
+
+            <!-- START - Newsletter Popup -->
+            <!-- /. Root element of PhotoSwipe. Must have class pswp. -->
+            <!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+            <!-- ********** Resources jQuery ********** -->
+            <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+            <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.easings.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+
+            <!-- PhotoSwipe Core JS file -->
+            <script src="js/velocity.min.js"></script>
+
+            <!-- PhotoSwipe UI JS file -->
+            <script src="js/velocity.ui.min.js"></script>
+
+            <!-- Newsletter plugin -->
+            <script src="js/notifyMe.js"></script>
+
+            <!-- Contact form plugin -->
+            <script src="js/contact-me.js"></script>
+
+            <!-- Mozaic plugin -->
+            <script src="js/dotty-2.js"></script>
+
+            <!-- Scroll plugin -->
+            <script src="js/jquery.mousewheel.js"></script>
+
+            <!-- Custom Scrollbar plugin -->
+            <script src="js/jquery.mCustomScrollbar.js"></script>
+
+            <!-- Popup Newsletter Form -->
+            <script src="js/classie.js"></script>
+            <script src="js/dialogFx.js"></script>
+
+            <!-- PhotoSwipe Core JS file -->
+            <script src="js/photoswipe.js"></script>
+
+            <!-- PhotoSwipe UI JS file -->
+            <script src="js/photoswipe-ui-default.js"></script>
+
+            <!-- Countdown plugin -->
+            <script src="js/jquery.countdown.js"></script>
+
+            <script>
+                $("#getting-started")
+                    // Year/Month/Day Hour:Minute:Second
+                    .countdown("2016/10/24 15:30:30", function(event) {
+                        $(this).text(
+                            event.strftime('%D Dan/a %Hh %Mm %Ss')
+                        );
+                    });
+            </script>
+
+            <!-- Main JS File -->
+            <script src="js/main.js"></script>
+
+
+            <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+
+
+        </div>
+        <div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_vertical" style="display: block;">
+            <div class="mCSB_draggerContainer">
+                <div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; display: block; height: 279px; max-height: 775px; top: 0px;" oncontextmenu="return false;">
+                    <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                </div>
+                <div class="mCSB_draggerRail"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
